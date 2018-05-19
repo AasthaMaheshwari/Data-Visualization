@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3701457B-7ECD-8483-5BA8-8DC4DB83143E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\backToImages.cs" />
+     <Compile Include="Assets\Scripts\buttonClicked.cs" />
+     <Compile Include="Assets\Scripts\buttonClicked1.cs" />
+     <Compile Include="Assets\Scripts\buttonClicked2.cs" />
+     <Compile Include="Assets\Scripts\Camera_Rotation.cs" />
+     <Compile Include="Assets\Scripts\cbName1.cs" />
+     <Compile Include="Assets\Scripts\cbName10.cs" />
+     <Compile Include="Assets\Scripts\cbName11.cs" />
+     <Compile Include="Assets\Scripts\cbName12.cs" />
+     <Compile Include="Assets\Scripts\cbName13.cs" />
+     <Compile Include="Assets\Scripts\cbName14.cs" />
+     <Compile Include="Assets\Scripts\cbName2.cs" />
+     <Compile Include="Assets\Scripts\cbName3.cs" />
+     <Compile Include="Assets\Scripts\cbName4.cs" />
+     <Compile Include="Assets\Scripts\cbName5.cs" />
+     <Compile Include="Assets\Scripts\cbName6.cs" />
+     <Compile Include="Assets\Scripts\cbName7.cs" />
+     <Compile Include="Assets\Scripts\cbName8.cs" />
+     <Compile Include="Assets\Scripts\cbName9.cs" />
+     <Compile Include="Assets\Scripts\childDisplay1.cs" />
+     <Compile Include="Assets\Scripts\coverFile1.cs" />
+     <Compile Include="Assets\Scripts\coverFiles.cs" />
+     <Compile Include="Assets\Scripts\coverName.cs" />
+     <Compile Include="Assets\Scripts\cy1.cs" />
+     <Compile Include="Assets\Scripts\cy2.cs" />
+     <Compile Include="Assets\Scripts\cy3.cs" />
+     <Compile Include="Assets\Scripts\cy4.cs" />
+     <Compile Include="Assets\Scripts\cy5.cs" />
+     <Compile Include="Assets\Scripts\cy6.cs" />
+     <Compile Include="Assets\Scripts\cy7.cs" />
+     <Compile Include="Assets\Scripts\cy8.cs" />
+     <Compile Include="Assets\Scripts\cy9.cs" />
+     <Compile Include="Assets\Scripts\cylinder.cs" />
+     <Compile Include="Assets\Scripts\cylinder1.cs" />
+     <Compile Include="Assets\Scripts\filesOfColors.cs" />
+     <Compile Include="Assets\Scripts\GUI_Button.cs" />
+     <Compile Include="Assets\Scripts\hookFile2.cs" />
+     <Compile Include="Assets\Scripts\hookFiles.cs" />
+     <Compile Include="Assets\Scripts\hookMac1.cs" />
+     <Compile Include="Assets\Scripts\hookMac2.cs" />
+     <Compile Include="Assets\Scripts\hookMac3.cs" />
+     <Compile Include="Assets\Scripts\LibFile.cs" />
+     <Compile Include="Assets\Scripts\MoveMouse.cs" />
+     <Compile Include="Assets\Scripts\name1.cs" />
+     <Compile Include="Assets\Scripts\name10.cs" />
+     <Compile Include="Assets\Scripts\name11.cs" />
+     <Compile Include="Assets\Scripts\name12.cs" />
+     <Compile Include="Assets\Scripts\name2.cs" />
+     <Compile Include="Assets\Scripts\name3.cs" />
+     <Compile Include="Assets\Scripts\name4.cs" />
+     <Compile Include="Assets\Scripts\name5.cs" />
+     <Compile Include="Assets\Scripts\name6.cs" />
+     <Compile Include="Assets\Scripts\name7.cs" />
+     <Compile Include="Assets\Scripts\name8.cs" />
+     <Compile Include="Assets\Scripts\name9.cs" />
+     <Compile Include="Assets\Scripts\nameColor1.cs" />
+     <Compile Include="Assets\Scripts\nameColor2.cs" />
+     <Compile Include="Assets\Scripts\nameColor3.cs" />
+     <Compile Include="Assets\Scripts\nameColor4.cs" />
+     <Compile Include="Assets\Scripts\nameColor5.cs" />
+     <Compile Include="Assets\Scripts\nameColor6.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay1.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay2.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay3.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay4.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay5.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay6.cs" />
+     <Compile Include="Assets\Scripts\nameDisplay7.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayColor.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile1.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile10.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile11.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile12.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile13.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile14.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile15.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile16.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile17.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile18.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile19.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile2.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile20.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile3.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile4.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile5.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile6.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile7.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile8.cs" />
+     <Compile Include="Assets\Scripts\nameDisplayFile9.cs" />
+     <Compile Include="Assets\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\parent1_name.cs" />
+     <Compile Include="Assets\Scripts\sbl1.cs" />
+     <Compile Include="Assets\Scripts\sbl2.cs" />
+     <Compile Include="Assets\Scripts\sbl3.cs" />
+     <Compile Include="Assets\Scripts\sbl4.cs" />
+     <Compile Include="Assets\Scripts\sbl5.cs" />
+     <Compile Include="Assets\Scripts\styleCSS.cs" />
+     <Compile Include="Assets\Scripts\ToCBSPL.cs" />
+     <Compile Include="Assets\Scripts\toCoverFiles.cs" />
+     <Compile Include="Assets\Scripts\ToCSS.cs" />
+     <Compile Include="Assets\Scripts\toHooks.cs" />
+     <Compile Include="Assets\Scripts\toHooks_MACFiles.cs" />
+     <Compile Include="Assets\Scripts\toImageFiles.cs" />
+     <Compile Include="Assets\Scripts\toLIB.cs" />
+     <Compile Include="Assets\Scripts\toSubChlid_Images.cs" />
+     <Compile Include="Assets\Scripts\ToTheChild.cs" />
+     <Compile Include="Assets\Scripts\ToTheChildImages.cs" />
+     <Compile Include="Assets\Scripts\ToTheColorsFiles.cs" />
+     <Compile Include="Assets\Scripts\TotheSubchild.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
